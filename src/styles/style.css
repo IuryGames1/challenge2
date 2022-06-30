@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .cardContainer {
@@ -20,8 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 490px;
-    height: 640px;
+    width: 450px;
+    height: 590px;
     background-color: #fff;
     border-radius: 45px;
     position: absolute;
@@ -29,8 +30,8 @@ body {
 }
 
 .cardContainer img {
-    width: 490px;
-    height: 239px;
+    width: 450px;
+    height: 200px;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     position: absolute;
@@ -42,7 +43,7 @@ body {
     font-weight: 900;
     color: #1F2F56;
     font-size: 40px;
-    margin-top: 15px;
+    margin-top: -10px;
 }
 
 .cardContainer p {
@@ -60,7 +61,7 @@ body {
     height: 100px;
     z-index: 5;
     background-color: #F5F8FF;
-    margin-top: 45px;
+    margin-top: 5px;
     border-radius: 20px;
     display: flex;
     padding: 20px;
@@ -107,7 +108,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     
 }
 
