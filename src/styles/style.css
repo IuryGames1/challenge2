@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .cardContainer {
@@ -21,8 +20,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 450px;
-    height: 590px;
+    width: 400px;
+    height: 580px;
     background-color: #fff;
     border-radius: 45px;
     position: absolute;
@@ -30,8 +29,8 @@ body {
 }
 
 .cardContainer img {
-    width: 450px;
-    height: 200px;
+    width: 400px;
+    height: 180px;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     position: absolute;
@@ -43,15 +42,15 @@ body {
     font-weight: 900;
     color: #1F2F56;
     font-size: 40px;
-    margin-top: -10px;
+    margin-top: -50px;
 }
 
 .cardContainer p {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1em;
     color: #6B6C71;
-    width: 366px;
+    width: 355px;
     text-align: center;
     margin-top: 10px;
 }
@@ -61,7 +60,7 @@ body {
     height: 100px;
     z-index: 5;
     background-color: #F5F8FF;
-    margin-top: 5px;
+    margin-top: -20px;
     border-radius: 20px;
     display: flex;
     padding: 20px;
@@ -108,7 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 30px;
+    bottom: 45px;
     
 }
 
